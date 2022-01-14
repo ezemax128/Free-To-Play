@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Free-To-Play</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="game_description">Game Description:</string>
+    <string name="game_genre">Game Genre:</string>
+    <string name="game_publisher">Game Publisher:</string>
+    <string name="game_developer">Game Developer:</string>
+    <string name="date_of_release">Date of Release:</string>
+    <string name="game_url">Game Url:</string>
+    <string name="more_game_information">More Game Information:</string>
+    <string name="game_data_sheet">Game Data Sheet:</string>
+    <string name="todo">TODO</string>
+    <string name="opps_there_seems_to_be_nothing">Opps!, there seems to be nothing.</string>
+    <string name="do_you_want_to_go_now">Do you want to go now?</string>
+    <string name="exit">Exit</string>
+    <string name="cancel">Cancel</string>
+    <string name="filter_by_genre">Filter by Genre:</string>
+</resources>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/GameImage"
+            android:layout_width="157dp"
+            android:layout_height="80dp"
+            android:layout_marginHorizontal="6dp"
+            android:layout_marginVertical="10dp"
+            android:src="@mipmap/ic_launcher_round" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/GameNameTxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="5dp"
+                android:layout_marginVertical="2dp"
+                android:fontFamily="@font/black_ops_one"
+                android:shadowColor="#353131"
+                android:textAlignment="viewStart"
+                android:textColor="#FF5722"
+                android:textColorHighlight="#E91E63"
+                android:textSize="20sp"
+                tools:text="Call Of Duty" />
+
+            <TextView
+                android:id="@+id/GameDescriptionTxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="5dp"
+                android:ellipsize="end"
+                android:fontFamily="@font/maven_pro_medium"
+                android:maxLines="2"
+                android:textColor="#FF9800"
+                android:textSize="14sp"
+                tools:text="Esto es una descripción del juego y tenemos que ver si funciona" />
+
+            <TextView
+                android:id="@+id/GameGenreTxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="5dp"
+                android:layout_marginVertical="2dp"
+                android:fontFamily="@font/maven_pro_medium"
+                android:textSize="16sp"
+                tools:text="Shooter" />
+
+            <TextView
+                android:id="@+id/GamePublisherTxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="5dp"
+                android:layout_marginVertical="2dp"
+                android:fontFamily="@font/maven_pro_medium"
+                android:textSize="16sp"
+                tools:text="Konami" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

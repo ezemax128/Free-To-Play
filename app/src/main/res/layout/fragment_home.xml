@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UI.view.homeFragment">
+
+    <LinearLayout
+        android:id="@+id/loadingUI"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/loadingLottie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true" />
+
+    </LinearLayout>
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorSecondary"
+        android:minHeight="?attr/actionBarSize"
+        app:navigationIcon="@drawable/ic_baseline_videogame_asset_24"
+        app:title="Free to Play"
+        app:titleTextColor="@color/white"
+        android:theme="?attr/actionBarTheme" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/filter_by_genre"
+        android:textSize="20sp"
+        android:textColor="#464647"
+        android:fontFamily="@font/maven_pro_medium"/>
+
+    <Spinner
+        android:id="@+id/ListOfGenres"
+        style="@android:style/Widget.Holo.Light.Spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="#2E3B43"
+        android:outlineProvider="none"
+        android:popupElevation="25dp"
+        android:requiresFadingEdge="vertical"
+        android:soundEffectsEnabled="true"
+        android:spinnerMode="dropdown"
+        tools:listitem="@layout/custom_item_spinner" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/MainRecycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:itemCount="5"
+        tools:listitem="@layout/item_row" />
+
+</LinearLayout>

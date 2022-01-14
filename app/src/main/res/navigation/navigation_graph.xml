@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_graph"
+    app:startDestination="@id/myBrandFragment">
+
+    <fragment
+        android:id="@+id/myBrandFragment"
+        android:name="pumpkin.app.freeToPlay.UI.view.myBrandFragment"
+        android:label="myBrandFragment" >
+        <action
+            android:id="@+id/action_myBrandFragment_to_homeFragment"
+            app:destination="@id/homeFragment"
+            app:enterAnim="@anim/slide_left_in"
+            app:exitAnim="@anim/slide_left_out"
+            app:popEnterAnim="@anim/slide_right_in"
+            app:popExitAnim="@anim/slide_right_out" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="pumpkin.app.freeToPlay.UI.view.homeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_gameDetailFragment"
+            app:destination="@id/gameDetailFragment"
+            app:enterAnim="@anim/slide_left_in"
+            app:exitAnim="@anim/slide_left_out"
+            app:popEnterAnim="@anim/slide_right_in"
+            app:popExitAnim="@anim/slide_right_out" />
+        <action
+            android:id="@+id/action_homeFragment_to_favoritesGamesFragment"
+            app:destination="@id/favoritesGamesFragment"
+            app:enterAnim="@anim/slide_left_in"
+            app:exitAnim="@anim/slide_left_out"
+            app:popEnterAnim="@anim/slide_right_in"
+            app:popExitAnim="@anim/slide_right_out" />
+    </fragment>
+    <fragment
+        android:id="@+id/gameDetailFragment"
+        android:name="pumpkin.app.freeToPlay.UI.view.GameDetailFragment"
+        android:label="fragment_game_detail"
+        tools:layout="@layout/fragment_game_detail" />
+    <fragment
+        android:id="@+id/favoritesGamesFragment"
+        android:name="pumpkin.app.freeToPlay.UI.view.FavoritesGamesFragment"
+        android:label="fragment_favorites_games"
+        tools:layout="@layout/fragment_favorites_games" >
+        <action
+            android:id="@+id/action_favoritesGamesFragment_to_gameDetailFragment"
+            app:destination="@id/gameDetailFragment"
+            app:enterAnim="@anim/slide_left_in"
+            app:exitAnim="@anim/slide_left_out"
+            app:popEnterAnim="@anim/slide_right_in"
+            app:popExitAnim="@anim/slide_right_out" />
+    </fragment>
+</navigation>
