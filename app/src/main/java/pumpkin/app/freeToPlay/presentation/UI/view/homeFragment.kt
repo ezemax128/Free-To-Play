@@ -1,4 +1,4 @@
-package pumpkin.app.freeToPlay.UI.view
+package pumpkin.app.freeToPlay.presentation.UI.view
 
 import android.os.Bundle
 import android.view.MenuItem
@@ -16,17 +16,17 @@ import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import pumpkin.app.freeToPlay.R
-import pumpkin.app.freeToPlay.UI.viewModel.MainViewModel
-import pumpkin.app.freeToPlay.UI.viewModel.ViewFactory
-import pumpkin.app.freeToPlay.UX.BaseAlert
-import pumpkin.app.freeToPlay.data.model.BundleMaker
-import pumpkin.app.freeToPlay.data.model.Game
-import pumpkin.app.freeToPlay.data.model.Genres
+import pumpkin.app.freeToPlay.presentation.UI.viewModel.MainViewModel
+import pumpkin.app.freeToPlay.presentation.UI.viewModel.ViewFactory
+import pumpkin.app.freeToPlay.presentation.UX.BaseAlert
+import pumpkin.app.freeToPlay.presentation.UI.model.BundleMaker
+import pumpkin.app.freeToPlay.presentation.UI.model.Game
+import pumpkin.app.freeToPlay.presentation.UI.model.Genres
 import pumpkin.app.freeToPlay.databinding.FragmentHomeBinding
-import pumpkin.app.freeToPlay.domain.DataSource
-import pumpkin.app.freeToPlay.domain.RepoImplementer
-import pumpkin.app.freeToPlay.valueObject.AppDataBase
-import pumpkin.app.freeToPlay.valueObject.Resourse
+import pumpkin.app.freeToPlay.data.DataSource
+import pumpkin.app.freeToPlay.data.repository.RepoImplementer
+import pumpkin.app.freeToPlay.data.valueObject.AppDataBase
+import pumpkin.app.freeToPlay.data.valueObject.Resourse
 
 
 class homeFragment : Fragment(R.layout.fragment_home), RecyclerAdapter.onItemRecyclerClicked {

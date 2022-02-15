@@ -1,7 +1,6 @@
-package pumpkin.app.freeToPlay.UI.view
+package pumpkin.app.freeToPlay.presentation.UI.view
 
 import android.content.Context
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -9,11 +8,8 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import coil.load
-import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.coroutineScope
-import kotlinx.coroutines.invoke
 import pumpkin.app.freeToPlay.R
-import pumpkin.app.freeToPlay.data.model.Game
+import pumpkin.app.freeToPlay.presentation.UI.model.Game
 
 class RecyclerAdapter(
     val context: Context,

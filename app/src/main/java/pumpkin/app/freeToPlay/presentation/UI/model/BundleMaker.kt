@@ -1,4 +1,4 @@
-package pumpkin.app.freeToPlay.data.model
+package pumpkin.app.freeToPlay.presentation.UI.model
 
 import android.os.Bundle
 

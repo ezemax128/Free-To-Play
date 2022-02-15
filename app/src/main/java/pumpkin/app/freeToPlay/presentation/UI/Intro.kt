@@ -1,4 +1,4 @@
-package pumpkin.app.freeToPlay
+package pumpkin.app.freeToPlay.presentation.UI
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity

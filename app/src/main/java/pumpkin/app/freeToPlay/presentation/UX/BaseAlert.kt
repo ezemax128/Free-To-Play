@@ -1,4 +1,4 @@
-package pumpkin.app.freeToPlay.UX
+package pumpkin.app.freeToPlay.presentation.UX
 
 import android.app.AlertDialog
 import android.content.Context

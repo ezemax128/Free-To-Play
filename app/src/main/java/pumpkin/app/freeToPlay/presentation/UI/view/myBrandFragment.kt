@@ -1,13 +1,11 @@
-package pumpkin.app.freeToPlay.UI.view
+package pumpkin.app.freeToPlay.presentation.UI.view
 
 import android.os.Bundle
 import android.os.CountDownTimer
 import android.view.View
 import androidx.activity.addCallback
-import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
-import pumpkin.app.freeToPlay.MainActivity
 import pumpkin.app.freeToPlay.R
 import pumpkin.app.freeToPlay.databinding.FragmentMyBrandBinding
 

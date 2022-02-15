@@ -1,10 +1,10 @@
-package pumpkin.app.freeToPlay.domain
+package pumpkin.app.freeToPlay.data
 
-import pumpkin.app.freeToPlay.data.model.Game
-import pumpkin.app.freeToPlay.data.model.GameEntity
-import pumpkin.app.freeToPlay.valueObject.AppDataBase
-import pumpkin.app.freeToPlay.valueObject.Resourse
-import pumpkin.app.freeToPlay.valueObject.RetrofitClient
+import pumpkin.app.freeToPlay.presentation.UI.model.Game
+import pumpkin.app.freeToPlay.presentation.UI.model.GameEntity
+import pumpkin.app.freeToPlay.data.valueObject.AppDataBase
+import pumpkin.app.freeToPlay.data.valueObject.Resourse
+import pumpkin.app.freeToPlay.data.valueObject.RetrofitClient
 
 class DataSource(private val appDataBase: AppDataBase) {
 

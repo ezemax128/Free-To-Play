@@ -1,13 +1,11 @@
-package pumpkin.app.freeToPlay.UI.viewModel
+package pumpkin.app.freeToPlay.presentation.UI.viewModel
 
-import android.widget.Toast
 import androidx.lifecycle.*
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
-import pumpkin.app.freeToPlay.data.model.Game
-import pumpkin.app.freeToPlay.data.model.GameEntity
-import pumpkin.app.freeToPlay.domain.Repository
-import pumpkin.app.freeToPlay.valueObject.Resourse
+import pumpkin.app.freeToPlay.presentation.UI.model.GameEntity
+import pumpkin.app.freeToPlay.data.repository.Repository
+import pumpkin.app.freeToPlay.data.valueObject.Resourse
 import java.lang.Exception
 
 class MainViewModel(val repository: Repository) : ViewModel() {

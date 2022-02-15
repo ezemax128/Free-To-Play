@@ -1,6 +1,5 @@
-package pumpkin.app.freeToPlay.valueObject
+package pumpkin.app.freeToPlay.data.valueObject
 
-import pumpkin.app.freeToPlay.data.model.Game
 import java.lang.Exception
 
 //this sealed class return a Resourse that can be a (Loading, Success or Failure state)

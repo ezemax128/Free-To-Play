@@ -1,11 +1,11 @@
-package pumpkin.app.freeToPlay.valueObject
+package pumpkin.app.freeToPlay.data.valueObject
 
 import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
-import pumpkin.app.freeToPlay.data.model.GameEntity
-import pumpkin.app.freeToPlay.domain.GamesDao
+import pumpkin.app.freeToPlay.presentation.UI.model.GameEntity
+import pumpkin.app.freeToPlay.data.GamesDao
 
 
 @Database(entities = arrayOf(GameEntity::class), version = 1)

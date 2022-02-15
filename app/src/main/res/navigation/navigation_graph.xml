@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/myBrandFragment"
-        android:name="pumpkin.app.freeToPlay.UI.view.myBrandFragment"
+        android:name="pumpkin.app.freeToPlay.presentation.UI.view.myBrandFragment"
         android:label="myBrandFragment" >
         <action
             android:id="@+id/action_myBrandFragment_to_homeFragment"
@@ -19,7 +19,7 @@
     </fragment>
     <fragment
         android:id="@+id/homeFragment"
-        android:name="pumpkin.app.freeToPlay.UI.view.homeFragment"
+        android:name="pumpkin.app.freeToPlay.presentation.UI.view.homeFragment"
         android:label="fragment_home"
         tools:layout="@layout/fragment_home" >
         <action
@@ -39,12 +39,12 @@
     </fragment>
     <fragment
         android:id="@+id/gameDetailFragment"
-        android:name="pumpkin.app.freeToPlay.UI.view.GameDetailFragment"
+        android:name="pumpkin.app.freeToPlay.presentation.UI.view.GameDetailFragment"
         android:label="fragment_game_detail"
         tools:layout="@layout/fragment_game_detail" />
     <fragment
         android:id="@+id/favoritesGamesFragment"
-        android:name="pumpkin.app.freeToPlay.UI.view.FavoritesGamesFragment"
+        android:name="pumpkin.app.freeToPlay.presentation.UI.view.FavoritesGamesFragment"
         android:label="fragment_favorites_games"
         tools:layout="@layout/fragment_favorites_games" >
         <action

@@ -12,7 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/sin_barra">
         <activity
-            android:name=".Intro"
+            android:name=".presentation.UI.Intro"
             android:exported="true"
             android:screenOrientation="portrait"
             android:theme="@style/intro">
@@ -23,7 +23,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name=".presentation.UI.MainActivity"
             android:exported="false"
             android:screenOrientation="portrait">
 

@@ -1,7 +1,7 @@
-package pumpkin.app.freeToPlay.valueObject
+package pumpkin.app.freeToPlay.data.valueObject
 
 import com.google.gson.GsonBuilder
-import pumpkin.app.freeToPlay.domain.WebService
+import pumpkin.app.freeToPlay.data.WebService
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 

@@ -1,11 +1,8 @@
-package pumpkin.app.freeToPlay.UI.view
+package pumpkin.app.freeToPlay.presentation.UI.view
 
 import android.os.Bundle
-import android.util.Log
 import androidx.fragment.app.Fragment
-import android.view.LayoutInflater
 import android.view.View
-import android.view.ViewGroup
 import android.widget.Toast
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.Observer
@@ -14,17 +11,17 @@ import androidx.recyclerview.widget.ItemTouchHelper
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import pumpkin.app.freeToPlay.R
-import pumpkin.app.freeToPlay.UI.viewModel.MainViewModel
-import pumpkin.app.freeToPlay.UI.viewModel.ViewFactory
-import pumpkin.app.freeToPlay.data.model.BundleMaker
-import pumpkin.app.freeToPlay.data.model.Game
-import pumpkin.app.freeToPlay.data.model.GameEntity
+import pumpkin.app.freeToPlay.presentation.UI.viewModel.MainViewModel
+import pumpkin.app.freeToPlay.presentation.UI.viewModel.ViewFactory
+import pumpkin.app.freeToPlay.presentation.UI.model.BundleMaker
+import pumpkin.app.freeToPlay.presentation.UI.model.Game
+import pumpkin.app.freeToPlay.presentation.UI.model.GameEntity
 import pumpkin.app.freeToPlay.databinding.FragmentFavoritesGamesBinding
-import pumpkin.app.freeToPlay.domain.DataSource
-import pumpkin.app.freeToPlay.domain.ItemSwipeRemove
-import pumpkin.app.freeToPlay.domain.RepoImplementer
-import pumpkin.app.freeToPlay.valueObject.AppDataBase
-import pumpkin.app.freeToPlay.valueObject.Resourse
+import pumpkin.app.freeToPlay.data.DataSource
+import pumpkin.app.freeToPlay.presentation.UI.ItemSwipeRemove
+import pumpkin.app.freeToPlay.data.repository.RepoImplementer
+import pumpkin.app.freeToPlay.data.valueObject.AppDataBase
+import pumpkin.app.freeToPlay.data.valueObject.Resourse
 
 
 class FavoritesGamesFragment : Fragment(R.layout.fragment_favorites_games),

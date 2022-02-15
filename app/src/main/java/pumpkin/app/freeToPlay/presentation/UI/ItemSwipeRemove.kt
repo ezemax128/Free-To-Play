@@ -1,4 +1,4 @@
-package pumpkin.app.freeToPlay.domain
+package pumpkin.app.freeToPlay.presentation.UI
 
 import androidx.recyclerview.widget.ItemTouchHelper
 import androidx.recyclerview.widget.RecyclerView
