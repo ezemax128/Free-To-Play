@@ -9,7 +9,7 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import coil.load
 import pumpkin.app.freeToPlay.R
-import pumpkin.app.freeToPlay.presentation.UI.model.Game
+import pumpkin.app.freeToPlay.data.model.Game
 
 class RecyclerAdapter(
     val context: Context,

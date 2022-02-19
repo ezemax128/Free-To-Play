@@ -1,4 +1,4 @@
-package pumpkin.app.freeToPlay.presentation.UI.model
+package pumpkin.app.freeToPlay.data.model
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity

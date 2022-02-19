@@ -1,7 +1,7 @@
 package pumpkin.app.freeToPlay.data
 
 import androidx.room.*
-import pumpkin.app.freeToPlay.presentation.UI.model.GameEntity
+import pumpkin.app.freeToPlay.data.model.GameEntity
 
 @Dao
 interface GamesDao {

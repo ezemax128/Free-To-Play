@@ -19,9 +19,9 @@ import pumpkin.app.freeToPlay.R
 import pumpkin.app.freeToPlay.presentation.UI.viewModel.MainViewModel
 import pumpkin.app.freeToPlay.presentation.UI.viewModel.ViewFactory
 import pumpkin.app.freeToPlay.presentation.UX.BaseAlert
-import pumpkin.app.freeToPlay.presentation.UI.model.BundleMaker
-import pumpkin.app.freeToPlay.presentation.UI.model.Game
-import pumpkin.app.freeToPlay.presentation.UI.model.Genres
+import pumpkin.app.freeToPlay.data.model.BundleMaker
+import pumpkin.app.freeToPlay.data.model.Game
+import pumpkin.app.freeToPlay.data.model.Genres
 import pumpkin.app.freeToPlay.databinding.FragmentHomeBinding
 import pumpkin.app.freeToPlay.data.DataSource
 import pumpkin.app.freeToPlay.data.repository.RepoImplementer

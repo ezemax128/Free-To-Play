@@ -1,8 +1,8 @@
 package pumpkin.app.freeToPlay.data.repository
 
 import pumpkin.app.freeToPlay.data.DataSource
-import pumpkin.app.freeToPlay.presentation.UI.model.Game
-import pumpkin.app.freeToPlay.presentation.UI.model.GameEntity
+import pumpkin.app.freeToPlay.data.model.Game
+import pumpkin.app.freeToPlay.data.model.GameEntity
 import pumpkin.app.freeToPlay.data.valueObject.Resourse
 
 class RepoImplementer(private val dataSource: DataSource): Repository {

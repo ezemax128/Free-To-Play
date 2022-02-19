@@ -3,7 +3,7 @@ package pumpkin.app.freeToPlay.presentation.UI.viewModel
 import androidx.lifecycle.*
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
-import pumpkin.app.freeToPlay.presentation.UI.model.GameEntity
+import pumpkin.app.freeToPlay.data.model.GameEntity
 import pumpkin.app.freeToPlay.data.repository.Repository
 import pumpkin.app.freeToPlay.data.valueObject.Resourse
 import java.lang.Exception

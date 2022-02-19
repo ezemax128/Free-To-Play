@@ -12,7 +12,7 @@ import pumpkin.app.freeToPlay.R
 import pumpkin.app.freeToPlay.presentation.UI.viewModel.MainViewModel
 import pumpkin.app.freeToPlay.presentation.UI.viewModel.ViewFactory
 import pumpkin.app.freeToPlay.presentation.UX.ShareGame
-import pumpkin.app.freeToPlay.presentation.UI.model.GameEntity
+import pumpkin.app.freeToPlay.data.model.GameEntity
 import pumpkin.app.freeToPlay.databinding.FragmentGameDetailBinding
 import pumpkin.app.freeToPlay.data.DataSource
 import pumpkin.app.freeToPlay.data.repository.RepoImplementer

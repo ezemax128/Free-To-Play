@@ -4,7 +4,7 @@ import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
-import pumpkin.app.freeToPlay.presentation.UI.model.GameEntity
+import pumpkin.app.freeToPlay.data.model.GameEntity
 import pumpkin.app.freeToPlay.data.GamesDao
 
 

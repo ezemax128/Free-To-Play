@@ -1,4 +1,4 @@
-package pumpkin.app.freeToPlay.presentation.UI.model
+package pumpkin.app.freeToPlay.data.model
 
 //constants of genres
 enum class Genres(val _genre: String) {

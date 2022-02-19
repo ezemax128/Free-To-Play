@@ -1,6 +1,6 @@
 package pumpkin.app.freeToPlay.data
 
-import pumpkin.app.freeToPlay.presentation.UI.model.Game
+import pumpkin.app.freeToPlay.data.model.Game
 import retrofit2.http.GET
 
 interface WebService {

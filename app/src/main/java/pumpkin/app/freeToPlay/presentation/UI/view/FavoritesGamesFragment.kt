@@ -13,12 +13,11 @@ import androidx.recyclerview.widget.RecyclerView
 import pumpkin.app.freeToPlay.R
 import pumpkin.app.freeToPlay.presentation.UI.viewModel.MainViewModel
 import pumpkin.app.freeToPlay.presentation.UI.viewModel.ViewFactory
-import pumpkin.app.freeToPlay.presentation.UI.model.BundleMaker
-import pumpkin.app.freeToPlay.presentation.UI.model.Game
-import pumpkin.app.freeToPlay.presentation.UI.model.GameEntity
+import pumpkin.app.freeToPlay.data.model.BundleMaker
+import pumpkin.app.freeToPlay.data.model.Game
+import pumpkin.app.freeToPlay.data.model.GameEntity
 import pumpkin.app.freeToPlay.databinding.FragmentFavoritesGamesBinding
 import pumpkin.app.freeToPlay.data.DataSource
-import pumpkin.app.freeToPlay.presentation.UI.ItemSwipeRemove
 import pumpkin.app.freeToPlay.data.repository.RepoImplementer
 import pumpkin.app.freeToPlay.data.valueObject.AppDataBase
 import pumpkin.app.freeToPlay.data.valueObject.Resourse
